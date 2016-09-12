@@ -1,0 +1,88 @@
+body{
+	width: 100%;
+	background-image: url(wood.jpg);
+}
+
+#record{
+	position:relative; 
+	width: 600px;
+	height: 600px;
+	border-radius: 360px;
+	border: 5px solid  #191919;
+	background-color: #000;
+	margin: 0 auto;
+	margin-top: -680px;
+	padding: 20px;
+	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 5%, rgba(89,89,89,1) 23%, rgba(71,71,71,1) 33%, rgba(44,44,44,1) 42%, rgba(17,17,17,1) 58%, rgba(102,102,102,1) 70%, rgba(43,43,43,1) 85%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(5%, rgba(0,0,0,1)), color-stop(23%, rgba(89,89,89,1)), color-stop(33%, rgba(71,71,71,1)), color-stop(42%, rgba(44,44,44,1)), color-stop(58%, rgba(17,17,17,1)), color-stop(70%, rgba(102,102,102,1)), color-stop(85%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+	background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 5%, rgba(89,89,89,1) 23%, rgba(71,71,71,1) 33%, rgba(44,44,44,1) 42%, rgba(17,17,17,1) 58%, rgba(102,102,102,1) 70%, rgba(43,43,43,1) 85%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 5%, rgba(89,89,89,1) 23%, rgba(71,71,71,1) 33%, rgba(44,44,44,1) 42%, rgba(17,17,17,1) 58%, rgba(102,102,102,1) 70%, rgba(43,43,43,1) 85%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 5%, rgba(89,89,89,1) 23%, rgba(71,71,71,1) 33%, rgba(44,44,44,1) 42%, rgba(17,17,17,1) 58%, rgba(102,102,102,1) 70%, rgba(43,43,43,1) 85%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 5%, rgba(89,89,89,1) 23%, rgba(71,71,71,1) 33%, rgba(44,44,44,1) 42%, rgba(17,17,17,1) 58%, rgba(102,102,102,1) 70%, rgba(43,43,43,1) 85%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+
+#record:hover{
+	-moz-transform: rotate(11720deg);
+	-webkit-transform: rotate(11720deg);
+	-o-transform: rotate(11720deg);
+	transform: rotate(11720deg);
+}
+
+#recordName{
+	width: 20px;
+	height: 20px;
+	border-radius: 360px;
+	background-color: #fff;
+	margin: 0 auto;
+	z-index: 2;
+	padding: 90px;
+}
+
+.center{
+	width: 20px;
+	height: 20px;
+	border-radius: 360px;
+	border: 3px solid #fff;
+	margin: 0 auto;
+	background-color: #000;
+	z-index: 5;
+}
+
+.rings{
+	width: 410px;
+	height: 410px;
+	border-radius: 360px;
+	border: 5px solid  #191919;
+	background-color: none;
+	margin: 0 auto;
+	padding: 90px;
+	z-index: 2;
+}
+
+.rings2{
+	width: 210px;
+	height: 210px;
+	border-radius: 360px;
+	border: 5px solid  #191919;
+	background-color: none;
+	margin: 0 auto;
+	padding: 90px;
+	z-index: 3;
+}
+
+.player{
+	width:900px;
+	height: 700px;
+	background-color: none;
+	border-radius: 40px;
+	margin: 0 auto;
+	z-index: -3
+	top: 0;
+
+}
